@@ -1,0 +1,24 @@
+@function rem($px) {
+	$pxToRem: ($px/16) + rem;
+	@return $pxToRem;
+}
+
+@mixin flex-center {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+@mixin flex-h-center {
+	display: flex;
+	align-items: center;
+}
+@mixin flex-v-center {
+	display: flex;
+	justify-content: center;
+}
+
+@mixin desktop {
+	@media (min-width: 1440px) {
+		@content;
+	}
+}

@@ -1,0 +1,23 @@
+@import "mixins";
+
+@font-face {
+	font-family: Outfit;
+	src: url(fonts/Outfit-VariableFont_wght.ttf);
+}
+
+@mixin font-bold {
+	font-family: Outfit, sans-serif;
+	font-weight: 700;
+	font-size: rem(22);
+}
+@mixin font-base {
+	font-family: Outfit, sans-serif;
+	font-weight: 400;
+	font-size: rem(15);
+	letter-spacing: 0.19px;
+}
+
+$primary: hsl(218, 44%, 22%);
+$secondary: hsl(220, 15%, 55%);
+$bg-color: hsl(212, 45%, 89%);
+$white: hsl(0, 0%, 100%);

@@ -24,7 +24,7 @@ body {
   justify-content: center;
 }
 
-.card {
+#card {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -35,22 +35,22 @@ body {
   border-radius: 1.25rem;
   box-shadow: rgba(100, 100, 111, 0.2) 0 0.4375rem 1.8125rem 0;
 }
-.card img {
+#card img {
   width: 18rem;
   height: 18rem;
   border-radius: 0.625rem;
 }
-.card .text {
+#card #text-container {
   text-align: center;
   margin: 1.5rem 1rem 0;
 }
-.card .text h1 {
+#card #text-container h1 {
   font-family: Outfit, sans-serif;
   font-weight: 700;
   font-size: 1.375rem;
   color: hsl(218, 44%, 22%);
 }
-.card .text p {
+#card #text-container p {
   font-family: Outfit, sans-serif;
   font-weight: 400;
   font-size: 0.9375rem;

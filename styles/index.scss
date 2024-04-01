@@ -8,7 +8,7 @@ body {
 	@include flex-center();
 }
 
-.card {
+#card {
 	@include flex-h-center();
 	flex-direction: column;
 	background-color: $white;
@@ -22,7 +22,7 @@ body {
 		height: rem(288);
 		border-radius: rem(10);
 	}
-	.text {
+	#text-container {
 		text-align: center;
 		margin: rem(24) rem(16) 0;
 		h1 {

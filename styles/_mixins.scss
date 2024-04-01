@@ -22,3 +22,15 @@
 		@content;
 	}
 }
+
+@mixin font-bold {
+	font-family: Outfit, sans-serif;
+	font-weight: 700;
+	font-size: rem(22);
+}
+@mixin font-base {
+	font-family: Outfit, sans-serif;
+	font-weight: 400;
+	font-size: rem(15);
+	letter-spacing: 0.19px;
+}
